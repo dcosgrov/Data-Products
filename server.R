@@ -21,7 +21,7 @@ shinyServer(function(input,output) {
                    Value/1000,
                    data=valuesToPlot, 
                    xlab="Date",
-                   ylab="Home Price in Thousands of Dollars $")
+                   ylab="Home Values (Thousands of US Dollars $)")
         
         # Determine if optional regression line should be shown
         if( input$regressionCheckbox[1]=="TRUE")
